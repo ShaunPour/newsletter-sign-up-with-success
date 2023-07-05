@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-</head>
-<body>
-  <header>
-<img class="mobile-img" src="images/illustration-sign-up-mobile.svg" alt="">
-</header>
-<!-- Sign-up form start -->
-<main>
-<h1 class="title">Stay updated!</h1>
-<h3 class="subtitle">Join 60,000+ product managers receiving monthly updates on:</h3>
-<ul>
-  <li><img src="images/icon-success.svg" alt=""> Product discovery and building what matters</li>
-  <li><img src="images/icon-success.svg" alt=""> Measuring to ensure updates are a success</li>
-  <li><img src="images/icon-success.svg" alt=""> And much more!</li>
-</ul>
-<h4 class="form-title">Email address</h4>
-<form>
-<input type="email" placeholder="email@company.com">
-<button>Subscribe to monthly newsletter</button>
-</form>
-</main>
-  <!-- Sign-up form end -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- displays site properly based on user's device -->
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+    </head>
+    <body>
+        <section class="container">
+            <img class="mobile-img" src="images/illustration-sign-up-mobile.svg" alt="">
+            <img
+                src="images/illustration-sign-up-desktop.svg"
+                alt=""
+                class="desktop-img hide">
+            <!-- Sign-up form start -->
+            <section class="main">
+                <h1 class="title">Stay updated!</h1>
+                <h3 class="subtitle">Join 60,000+ product managers receiving monthly updates on:</h3>
+                <ul>
+                    <li><img src="images/icon-success.svg" alt="">
+                        Product discovery and building what matters</li>
+                    <li><img src="images/icon-success.svg" alt="">
+                        Measuring to ensure updates are a success</li>
+                    <li><img src="images/icon-success.svg" alt="">
+                        And much more!</li>
+                </ul>
+                <div class="title-div">
+                    <h4 class="form-title">Email address</h4>
+                    <h4 class="error-msg hide">Valid email required</h4>
+                </div>
+                <form>
+                    <input type="email" placeholder="email@company.com">
+                    <button>Subscribe to monthly newsletter</button>
+                </form>
+            </section>
+        </section>
+        <!-- Sign-up form end -->
 
-  <!-- Success message start -->
-<div class="success">
-  <img src="images/icon-success.svg" alt="" srcset="">
-  <h3>Thanks for subscribing!</h3>
-  <p>A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.</p>
-<button>Dismiss message</button>
-</div>
-  <!-- Success message end -->
-  <script src="js/app.js"></script>
-</body>
+        <!-- Success message start -->
+        <div class="success">
+            <img src="images/icon-success.svg" alt="" srcset="">
+            <h3>Thanks for subscribing!</h3>
+            <p>A confirmation email has been sent to ash@loremcompany.com. Please open it
+                and click the button inside to confirm your subscription.</p>
+            <button>Dismiss message</button>
+        </div>
+        <!-- Success message end -->
+        <script src="js/app.js"></script>
+    </body>
 </html>
