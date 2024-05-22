@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Code Repository](https://github.com/DarkPhoenixNinja92/newsletter-sign-up-with-success)
-- Live Site URL: [GitHub Pages Live Site](darkphoenixninja92.github.io/newsletter-sign-up-with-success)
+- Solution URL: [GitHub Code Repository](https://github.com/shaunpour/newsletter-sign-up-with-success)
+- Live Site URL: [GitHub Pages Live Site](shaunpour.github.io/newsletter-sign-up-with-success)
 
 ## My process
 
@@ -53,4 +53,4 @@ This was done primarily to help me get better at css but it did help with learni
 
 - Website - [Shaun Pour](https://www.your-site.com)
 - Frontend Mentor - [@DarkPhoenixNinja92](https://www.frontendmentor.io/profile/DarkPhoenixNinja92)
-- GitHub - [DarkPhoenixNinja92](https://www.github.com/DarkPhoenixNinja92)
+- GitHub - [ShaunPour](https://www.github.com/ShaunPour)
