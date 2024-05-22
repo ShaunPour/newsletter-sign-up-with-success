@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Code Repository](https://github.com/shaunpour/newsletter-sign-up-with-success)
-- Live Site URL: [GitHub Pages Live Site](shaunpour.github.io/newsletter-sign-up-with-success)
+- Live Site URL: [GitHub Pages Live Site](https://shaunpour.github.io/newsletter-sign-up-with-success)
 
 ## My process
 
